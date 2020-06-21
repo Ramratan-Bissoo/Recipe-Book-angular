@@ -1,0 +1,21 @@
+<!-- <app-header (featureSelected)="onNavigate($event)"></app-header> -->
+<app-header1></app-header1>
+<div class="container">
+    <div class="row">
+     <div class="col-md-12">
+         <!-- <app-recipes *ngIf="loadstatus === 'recipe'"></app-recipes>
+         <app-shopping-list *ngIf="loadstatus !== 'recipe'"></app-shopping-list> -->
+         <router-outlet></router-outlet>
+     </div>
+    </div>
+    <!-- <div class="row">
+        <div class="col-md-12">
+            <a [routerLink]="['/recipe']">recipe</a><br>
+            <a [routerLink]="['/shopping']">shopping</a>
+            <button (click)="myfuction(test)">shopping</button>
+            <label>{{test}}</label>
+        </div>
+    </div>
+    <div> hiii<router-outlet></router-outlet>  </div> -->
+    
+</div>

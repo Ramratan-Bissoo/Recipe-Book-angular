@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-xs-10">
+    <app-shopping-edit></app-shopping-edit>
+    <hr>
+    <!-- <div class="row">
+      <label for="value">value</label>
+      <select  [(ngModel)]="selected1"class="form-control">
+        <option *ngFor="let x of ingredients" [value]="x.name" [selected]="selected2">{{x.name}}</option>
+    </select>
+    {{ selected1}}
+    <button (click)="selectValue()">save</button>
+    </div> -->
+    
+    <ul class="list-group">
+      <a
+        class="list-group-item"
+        style="cursor: pointer"
+        *ngFor="let ingredient of ingredients; let i = index"
+        (click)="onEditItem(i)"
+      >
+        {{ ingredient.name }} ({{ ingredient.amount }})
+      </a>
+    </ul>
+  </div>
+</div>
