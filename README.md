@@ -26,7 +26,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 **Ramratan Bissoo**
 
-- <https://github.com/ramratanbissoo>
+- <https://github.com/Ramratan-Bissoo>
 
 ## Thanks
 
