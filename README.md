@@ -1,5 +1,8 @@
 # Recipes Book + Firebase
 
+![Home](https://github.com/Ramratan-Bissoo/Recipe-Book-angular/blob/master/screenshot/home_page.PNG?raw=true)
+
+# Live Demo <a href="https://recipes-book-angular.netlify.app/">Recipe-Book</a>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
@@ -7,9 +10,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Install And Run
 
